@@ -1,0 +1,52 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+div {
+  border: 1px solid blue;
+  margin: 20px 100px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+#title,
+.buttons,
+.circles,
+.squares,
+.rects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+svg {
+  padding-top: 20px;
+  border: 1px solid red;
+}
+
+circle,
+rect {
+  fill: rgb(248, 248, 248);
+}
+
+button {
+  border-color: red;
+  border-style: solid;
+  color: gray;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+button:focus {
+  outline: 4px solid green;
+}
